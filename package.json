@@ -1,0 +1,32 @@
+{
+  "name": "parse-poedb-hideout-api",
+  "version": "1.0.0",
+  "description": "Parse poedb hideout name to other language.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/explooosion/parse-poedb-hideout-api.git"
+  },
+  "keywords": [
+    "poe",
+    "hideout",
+    "share",
+    "parser",
+    "poedb"
+  ],
+  "author": {
+    "name": "Robby",
+    "email": "ta7382@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/explooosion/parse-poedb-hideout-api/issues"
+  },
+  "homepage": "https://github.com/explooosion/parse-poedb-hideout-api#readme",
+  "devDependencies": {
+    "jsdom": "^13.2.0"
+  }
+}
