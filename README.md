@@ -5,6 +5,8 @@ Parse poedb hideout name to other language.
 
 1. Download api file from [https://poedb.tw/us/json.php/Hideouts/Hideouts](https://poedb.tw/us/json.php/Hideouts/Hideouts)
 
+    *. You can change the locale from url `us` with ohter, example: `tw`, `cn`..etc
+
 2. `npm install`
 
 3. `node app.js`
