@@ -7,9 +7,9 @@ const { data } = JSON.parse(file.toString());
 const HIDEOUT = data.map(d => {
     const dom = new JSDOM(d);
     const Icon = dom.window.document.querySelector('img').getAttribute('src');
-    const CNAME = dom.window.document.querySelector('a').textContent.replace(/\[.*?\]/g, '').replace(/\s+/g, '');
-    const NAME = dom.window.document.querySelector('a').getAttribute('href').replace('area.php?n=', '').replace('+', ' ').replace('%27', "'");
-    return { CNAME, NAME, Icon };
+    const CName = dom.window.document.querySelector('a').textContent.replace(/\[.*?\]/g, '').replace(/\s+/g, '');
+    const Name = dom.window.document.querySelector('a').getAttribute('href').replace('area.php?n=', '').replace(/\+/g, ' ').replace('%27', "'");
+    return { CName, Name, Icon };
 });
 
 const writeFile = `
