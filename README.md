@@ -5,7 +5,7 @@ Parse poedb hideout name to other language.
 
 1. Download api file from [https://poedb.tw/us/json.php/Hideouts/Hideouts](https://poedb.tw/us/json.php/Hideouts/Hideouts)
 
-    *. You can change the locale from url `us` with ohter, example: `tw`, `cn`..etc
+    *. You can change the locale by replace url `us` to ohter locale, example: `tw`, `cn`..etc
 
 2. `npm install`
 
@@ -20,7 +20,8 @@ Parse poedb hideout name to other language.
     "data": [
         { 
             "CNAME": "藏身處-富饒之地", 
-            "NAME": "Lush Hideout" 
+            "NAME": "Lush Hideout",
+            "Icon : "...url"
         }
     ]
 }
